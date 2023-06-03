@@ -129,10 +129,19 @@ nav ul li {
   flex-basis: 30%;
   min-width: 15.8rem;
   margin-bottom: 2rem;
+  overflow: hidden;
+  width: 335px;
+  height: 335px;
+  border-radius: 5%;
 }
 
 .col_3 img {
   width: 100%;
+  transition: all 0.5s linear;
+}
+
+.col_3 img:hover {
+  transform: scale(1.25);
 }
 
 /* =============================== this is  Featured_2 products =============================== */
@@ -186,4 +195,102 @@ h4 {
   transform: translateY(-10px);
 }
 
-/* =============================== this is  Latest products =============================== */
+/* =============================== this is  offers =============================== */
+
+.offer {
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+
+.col_2 .offer_img {
+  padding: 3.2rem;
+}
+
+.col_2 h2 {
+  font-size: 3rem;
+  margin: 0.8rem 0;
+}
+
+small {
+  color: #555;
+}
+
+/* =============================== this is  testimonial card =============================== */
+
+.testimonial {
+  padding-top: 6.5rem;
+}
+
+.testimonial .col_3 {
+  text-align: center;
+  box-shadow: 0 0 1.4rem rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 1.5rem;
+  transition: all 0.5s;
+}
+
+.test_img {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 1.4rem;
+}
+
+.testimonial .test_img img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.testimonial .test_img img:hover {
+  transform: scale(1.25);
+}
+.testimonial .col_3:hover {
+  transform: translateY(-10px);
+}
+
+.fa-quote-left {
+  font-size: 2.2rem;
+  color: #ff523b;
+}
+
+.col_3 p {
+  font-size: 0.83rem;
+  margin: 0.7rem 0;
+  color: #777;
+}
+
+.testimonial .col_3 h3 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #555;
+  font-weight: 600;
+}
+
+/* =============================== this is brands =============================== */
+
+.brands {
+  margin: 6.5rem auto;
+}
+
+.col_5 {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 1.4rem rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  margin: 1rem auto;
+}
+
+.col_5 img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.col_5:hover {
+  transform: translateY(-10px);
+  filter: brightness(10%);
+}

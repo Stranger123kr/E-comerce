@@ -40,28 +40,6 @@ img {
   background-clip: content-box;
 }
 
-/* ======================== this is cursor style ===================== */
-
-body {
-  cursor: pointer;
-}
-
-#cursor {
-  display: none;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  z-index: 999;
-  transition: 0.3s;
-  pointer-events: none;
-}
-
-/* div:hover ~ #cursor {
-  transform: scale(0.5);
-} */
-
 /* =============================== this is  navbar section =============================== */
 .header {
   background: radial-gradient(#fff, #ffd6d6);

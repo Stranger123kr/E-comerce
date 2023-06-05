@@ -459,4 +459,59 @@ small {
   .testimonial .col_3 {
     padding: 0.5rem 1.5rem;
   }
+
+  .row_2 {
+    justify-content: space-between;
+    margin: 5rem auto 3rem;
+    gap: 1rem;
+  }
+
+  .page_btn span {
+    margin-bottom: 1rem;
+  }
+}
+
+/* =============================== this is Products page css =============================== */
+
+.row_2 {
+  justify-content: space-between;
+  margin: 5rem auto 3rem;
+}
+
+.row_2 h2 {
+  font-weight: 600;
+}
+
+select {
+  border: 1px solid #ff523b;
+  padding: 0.4rem;
+  background: #fff;
+}
+select:focus {
+  outline: none;
+}
+
+/* =============================== this is pagination page css =============================== */
+
+.page_btn {
+  margin: 0 auto 5rem;
+}
+
+.page_btn span {
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: background 0.3s;
+  /* font-size: 1rem; */
+  font-weight: 600;
+}
+
+.page_btn span:hover {
+  background: #ff523b;
+  color: #fff;
 }

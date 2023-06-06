@@ -22,7 +22,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>All Products - RedStore</title>
+    <title>Products details - page - RedStore</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
   </head>
@@ -49,155 +49,69 @@
       </div>
     </div>
 
+    <!-- =============================== this is single products_details ===============================  -->
+
+    <div class="small_container single_product">
+      <div class="row">
+        <div class="col_2">
+          <img class="singe_img" src="images/gallery-1.jpg" alt="gallery-1" />
+
+          <div class="small_img_row">
+            <div class="small_img_col">
+              <img src="images/gallery-1.jpg" alt="gallery-1" width="100%" />
+            </div>
+            <div class="small_img_col">
+              <img src="images/gallery-2.jpg" alt="gallery-1" width="100%" />
+            </div>
+            <div class="small_img_col">
+              <img src="images/gallery-3.jpg" alt="gallery-1" width="100%" />
+            </div>
+            <div class="small_img_col">
+              <img src="images/gallery-4.jpg" alt="gallery-1" width="100%" />
+            </div>
+          </div>
+        </div>
+        <div class="col_2">
+          <p>Home / T-Shirt</p>
+          <h1>
+            Red Printed T-shirt <br />
+            by HRX
+          </h1>
+          <h4>₹699</h4>
+          <select autocomplete="off">
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+          <input id="range" type="number" value="1" autocomplete="off" />
+          <a href="#" class="btn">Add To Cart</a>
+          <h3>PRODUCTS DETAILS <i class="fa fa-indent"></i></h3>
+          <p>
+            Give your summer wardrobe a style upgrade with the HRX Men's Active
+            T-shirt Team it with a pair of shorts for your morning workout or a
+            denims for an evening out with the guys.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- =============================== this is products ===============================  -->
 
+    <!-- ------------- title ------------- -->
+
     <div class="small_container">
-      <!-- this is first row -->
-
       <div class="row row_2">
-        <h2>All Products</h2>
-        <select autocomplete="off">
-          <option>Default Shorting</option>
-          <option>Short by Price</option>
-          <option>Short by Popularity</option>
-          <option>Short by Rating</option>
-          <option>Short by Sale</option>
-        </select>
+        <h2>Related Products</h2>
+        <p>View More</p>
       </div>
+    </div>
 
-      <!-- this is two row -->
+    <!-- ------------- products ----------- -->
 
-      <!-- this is third row -->
-
-      <div class="row">
-        <!-- this is first col_4 -->
-
-        <div class="col_4">
-          <a href="Product_detail.html"
-            ><img src="images/product-1.jpg" alt="product-1"
-          /></a>
-          <h4>Red Printed T-Shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹500</p>
-        </div>
-
-        <!-- this is two col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-2.jpg" alt="product-1" />
-          <h4>HRX Spots Shoes</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star-half"></i>
-          </div>
-          <p>₹900</p>
-        </div>
-
-        <!-- this is three col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-3.jpg" alt="product-1" />
-          <h4>HRX Gray Tarckpants</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star-half"></i>
-          </div>
-          <p>₹700</p>
-        </div>
-
-        <!-- this is four col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-4.jpg" alt="product-1" />
-          <h4>Blue Printed T-Shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹550</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <!------------------------ this is a first row of latest products --------------->
-        <!-- this is first col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-5.jpg" alt="product-1" />
-          <h4>Puma Gray Sports Shoes</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹2500</p>
-        </div>
-
-        <!-- this is two col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-6.jpg" alt="product-1" />
-          <h4>Black Printed T-Shirt</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star-half"></i>
-          </div>
-          <p>₹900</p>
-        </div>
-
-        <!-- this is three col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-7.jpg" alt="product-1" />
-          <h4>HRX Set of 3 Socks</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star-half"></i>
-          </div>
-          <p>₹100</p>
-        </div>
-
-        <!-- this is four col_4 -->
-
-        <div class="col_4">
-          <img src="images/product-8.jpg" alt="product-1" />
-          <h4>Black Fossil Watch</h4>
-          <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-          <p>₹5250</p>
-        </div>
-      </div>
-
-      <!------------------------ this is a second row of latest products --------------->
-
+    <div class="small_container">
       <div class="row">
         <!-- this is first col_4 -->
 
@@ -258,15 +172,6 @@
           </div>
           <p>₹350</p>
         </div>
-      </div>
-
-      <div class="page_btn">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
-        <span>5</span>
-        <span>&rightarrow;</span>
       </div>
     </div>
 

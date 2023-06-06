@@ -78,6 +78,24 @@ nav ul li {
   margin-right: 1.4rem;
 }
 
+nav ul li a {
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 0.2rem;
+  background: #ff523b;
+  position: absolute;
+  left: 0;
+  bottom: -0.4rem;
+  transition: width 0.3s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+
 /* =============================== this is  hero section =============================== */
 
 .header .row {

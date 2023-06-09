@@ -2,7 +2,7 @@ const menu_icon = document.querySelector(".menu_icon");
 const Menu_items = document.querySelector("#Menu_items");
 const All_img = document.querySelectorAll(".small_img_col img");
 const singe_img = document.querySelector(".singe_img");
-const range = document.getElementById("range");
+const range = document.getElementsByClassName("range");
 
 // ============================ this is a mobile navbar effect ==================================
 
@@ -22,7 +22,11 @@ function Get_src(src) {
 
 // ============================ this is input correction ==================================
 
-range.addEventListener("click", () => {
-  range.value < 1 ? (range.value = 1) : range.value;
-  console.log(range.value)
+Array.from(range).forEach((range) => {
+  // console.log(e);
+
+  range.addEventListener("click", () => {
+    range.value < 1 ? (range.value = 1) : range.value;
+    console.log(range.value);
+  });
 });

@@ -512,6 +512,73 @@ select:focus {
   font-weight: 500;
 }
 
+/* =============================== this is cart page css =============================== */
+
+.cart_page {
+  margin: 5rem auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart_info {
+  display: flex;
+  flex-wrap: wrap;
+  color: #555;
+}
+
+th {
+  text-align: left;
+  padding: 0.4rem;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+
+td {
+  padding: 0.7rem 0.4rem;
+}
+
+td input {
+  width: 2.8rem;
+  height: 2rem;
+  padding: 0.4rem 0 0.4rem 0.4rem;
+}
+td input:focus {
+  outline: none;
+}
+
+td a {
+  color: #ff523b;
+  font-size: 0.8rem;
+}
+
+td img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.7rem;
+}
+
+.total_price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total_price table {
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 23rem;
+}
+
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
+
 /* =============================== this is media query =============================== */
 
 @media (max-width: 768px) {
@@ -609,5 +676,9 @@ select:focus {
 
   .single_product h1 {
     font-size: 1.8rem;
+  }
+
+  .cart_info {
+    gap: 1rem;
   }
 }

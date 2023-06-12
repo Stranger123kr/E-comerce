@@ -3,6 +3,10 @@ const Menu_items = document.querySelector("#Menu_items");
 const All_img = document.querySelectorAll(".small_img_col img");
 const singe_img = document.querySelector(".singe_img");
 const range = document.getElementsByClassName("range");
+const form_btn = document.querySelectorAll(".form_btn span");
+const Login_form = document.getElementById("Login_form");
+const Register_form = document.getElementById("Register_form");
+const Indicator = document.getElementById("Indicator");
 
 // ============================ this is a mobile navbar effect ==================================
 
@@ -30,3 +34,17 @@ Array.from(range).forEach((range) => {
     console.log(range.value);
   });
 });
+
+// ============================ this is login and registration form  effect ==================================
+
+function Register() {
+  Register_form.style.transform = " translateX(0rem)";
+  Login_form.style.transform = " translateX(0rem)";
+  Indicator.style.transform = " translateX(6.5rem)";
+}
+
+function login() {
+  Register_form.style.transform = " translateX(19rem)";
+  Login_form.style.transform = " translateX(19rem)";
+  Indicator.style.transform = " translateX(0rem)";
+}

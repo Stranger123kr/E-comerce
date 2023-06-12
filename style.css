@@ -579,6 +579,83 @@ th:last-child {
   text-align: right;
 }
 
+/* =============================== this is Account - page css =============================== */
+
+.account_page {
+  padding: 3rem 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.form_container {
+  background: #fff;
+  width: 19rem;
+  height: 25rem;
+  position: relative;
+  text-align: center;
+  padding: 1.4rem 0;
+  margin: auto;
+  box-shadow: 0 0 1rem 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form_container span {
+  font-weight: bold;
+  padding: 0 0.8rem;
+  color: #555;
+  cursor: pointer;
+  width: 6.5rem;
+  display: inline-block;
+}
+
+.form_btn {
+  display: inline-block;
+}
+
+.form_container form {
+  max-width: 19rem;
+  padding: 0 1.5rem;
+  position: absolute;
+  top: 8rem;
+  transition: transform 0.3s;
+}
+
+form input {
+  width: 100%;
+  height: 2rem;
+  margin: 0.5rem 0;
+  padding: 0 0.8rem;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+form .btn {
+  width: 100%;
+  cursor: pointer;
+  margin: 0.7rem 0;
+}
+
+#Login_form {
+  left: -19rem;
+}
+
+.Register_form {
+  left: 0;
+}
+
+form a {
+  font-size: 0.8rem;
+}
+
+#Indicator {
+  width: 6.5rem;
+  height: 3px;
+  margin-top: 0.8rem;
+  background: #ff523b;
+  border: none;
+  transform: translateX(6.5rem);
+  transition: transform 0.3s;
+}
+
 /* =============================== this is media query =============================== */
 
 @media (max-width: 768px) {
